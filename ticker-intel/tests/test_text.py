@@ -1,5 +1,3 @@
-import pytest
-
 from ticker_intel.text import normalize_text
 
 

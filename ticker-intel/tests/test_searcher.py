@@ -1,4 +1,3 @@
-import os
 import respx
 import httpx
 

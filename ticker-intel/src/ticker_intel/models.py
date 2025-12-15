@@ -15,3 +15,8 @@ class ResearchResult(BaseModel):
     summary: str 
     bullets: list[str] 
     sources: list[SourceDoc]
+class SearchHit(BaseModel):
+    title: str
+    link: str
+    snippet: str | None
+    position: str | None
